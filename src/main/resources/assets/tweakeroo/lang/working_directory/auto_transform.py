@@ -14,8 +14,8 @@ def name_desc_identify(file_path: str) -> List[Tuple[str, str]]:
         names.append((literal[0].strip(), literal[-1].strip()))
 
     for name in names:
-        # temp_file.write(f'{name[0][1:-1]}\t{name[0][1:-1]}\t{name[1][1:-1]}\n')
-        temp_file.write(f'{name[0][1:-1]}\t测试\t测试文本\n')
+        temp_file.write(f'{name[0][1:-1]}\t{name[0][1:-1]}\t{name[1][1:-1]}\n')
+        # temp_file.write(f'{name[0][1:-1]}\t测试\t测试文本\n')
     return names
 
 
