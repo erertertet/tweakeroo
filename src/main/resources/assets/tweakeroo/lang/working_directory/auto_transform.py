@@ -1,47 +1,32 @@
 import re
+from typing import List, Tuple
 
-lines = open('src\main\java\\fi\dy\masa\\tweakeroo\config\Hotkeys.java', 'r').read()
-pattern = r'public static final [^(]*\(([^)\n]*)\)'
-matches = re.findall(pattern, lines)
 
-names = []
+def name_desc_identify(file_path: str) -> List[Tuple[str, str]]:
+    lines = open(file_path, "r").read()
+    matches = re.findall(r"[^(]*\(([\"[a-zA-Z0-9]*\",[^\)]*]*)", lines)
 
-for match in matches:
-    literal = match.split(", ")
-    # print(literal[0], literal[-1])
-    names.append((literal[0], literal[-1]))
+    names = []
 
-for name in names:
-    ...
-    print(f"{name[0]}: \"测试\",")
+    for match in matches:
+        literal = match.split(",")
+        names.append((literal[0].strip(), literal[-1].strip()))
 
-quit()
+    for name in names:
+        print(f'{name[0]}: "测试",')
+    return names
 
-lines = open('src\main\java\\fi\dy\masa\\tweakeroo\config\FeatureToggle.java', 'r').read()
-pattern = r'[^(]*\(([\"[a-zA-Z]*\",[^\)]*]*)'
-matches = re.findall(pattern, lines)
 
-names = []
+name_desc_identify(
+    "src\main\java\\fi\dy\masa\\tweakeroo\config\Configs.java",
+)
 
-for match in matches:
-    literal = match.split(", ")
-    # print(literal[0], literal[-1])
-    names.append((literal[0], literal[-1]))
+name_desc_identify(
+    "src\main\java\\fi\dy\masa\\tweakeroo\config\FeatureToggle.java",
+)
 
-for name in names:
-    ...
-    # print(f"{name[0]}: \"测试\",")
+name_desc_identify(
+    "src\main\java\\fi\dy\masa\\tweakeroo\config\Hotkeys.java",
+)
 
-lines = open('src\main\java\\fi\dy\masa\\tweakeroo\config\FeatureToggle.java', 'r').read()
-pattern = r'[^(]*\(([\"[a-zA-Z]*\",[^\)]*]*)'
-matches = re.findall(pattern, lines)
-
-names = []
-
-for match in matches:
-    literal = match.split(", ")
-    # print(literal[0], literal[-1])
-    names.append((literal[0], literal[-1]))
-
-for name in names:
-    print(f"{name[0]}: \"测试\",")
+# Notice: there are two pair of exact same entries of freeCameraPlayerInputs/Movements
