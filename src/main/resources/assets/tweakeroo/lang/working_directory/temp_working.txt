@@ -1,276 +1,554 @@
-afterClickerClickCount	afterClickerClickCount	The number of right clicks to do per placed block when\ntweakAfterClicker is enabled
-angelBlockPlacementDistance	angelBlockPlacementDistance	The distance from the player blocks can be placed in\nthe air when tweakAngelBlock is enabled.\n5 is the maximum the server allows.
-blockReachDistance	blockReachDistance	 for breaking.
-blockTypeBreakRestrictionWarn	blockTypeBreakRestrictionWarn	Selects which type of warning message to show (if an
-breakingGridSize	breakingGridSize	croll while\nholding down the tweak toggle keybind.
-breakingRestrictionMode	breakingRestrictionMode	The Breaking Restriction mode to use (hotkey-selectabl
-chatBackgroundColor	chatBackgroundColor	nif 'tweakChatBackgroundColor' is enabled
-chatTimeFormat	chatTimeFormat	f tweakChatTimestamp is enabled\nUses the Java SimpleDateFormat format specifiers.
-carpetAccuratePlacementProtocol	carpetAccuratePlacementProtocol	ogs etc
-clientPlacementRotation	clientPlacementRotation	nsuch as Accurate Placement working in single player without Carpet mod
-customInventoryGuiScale	customInventoryGuiScale	f\n搂etweakCustomInventoryScreenScale搂r is enabled.
-elytraCameraIndicator	elytraCameraIndicator	Whether or not to render the real pitch angle\nindicator when the elytra camera mode is active
-entityTypeAttackRestrictionWarn	entityTypeAttackRestrictionWarn	Selects which type of warning message to show (if an
-fastBlockPlacementCount	fastBlockPlacementCount	The maximum number of blocks to place per game tick\nwith the Fast Block Placement tweak
-fastLeftClickAllowTools	fastLeftClickAllowTools	Allow the Fast Left Click to work in survival\nalso while holding tool items
-fastLeftClickCount	fastLeftClickCount	The number of left clicks to do per game tick when\ntweakFastLeftClick is enabled and the attack button is held down
-fastPlacementRememberOrientation	fastPlacementRememberOrientation	he orientation will only be remembered\nwith the Flexible Block Placement enabled and active.
-fastRightClickCount	fastRightClickCount	The number of right clicks to do per game tick when\ntweakFastRightClick is enabled and the use button is held down
-fillCloneLimit	fillCloneLimit	nif the tweak to override them is enabled
-flexibleBlockPlacementOverlayColor	flexibleBlockPlacementOverlayColor	The color of the currently pointed-at\nregion in block placement the overlay
-flyDecelerationFactor	flyDecelerationFactor	This adjusts how quickly the player will stop if the\n'customFlyDeceleration' tweak is enabled
-flySpeedPreset1	flySpeedPreset1	The fly speed for preset 1
-flySpeedPreset2	flySpeedPreset2	The fly speed for preset 2
-flySpeedPreset3	flySpeedPreset3	The fly speed for preset 3
-flySpeedPreset4	flySpeedPreset4	The fly speed for preset 4
-freeCameraPlayerInputs	freeCameraPlayerInputs	he attacks and use actions\n(ie. left and right click
-freeCameraPlayerMovement	freeCameraPlayerMovement	he movement inputs in the Free Camera mode\nwill move the actual client player instead of the camera
-gammaOverrideValue	gammaOverrideValue	The gamma value to use when the override option is enabled
-handRestockPre	handRestockPre	hen hand restocking happens\nbefore the stack runs out
-handRestockPreThreshold	handRestockPreThreshold	The stack size threshold at which Hand Restock will happen\nin the pre-restock mode
-hangableEntityBypassInverse	hangableEntityBypassInverse	nthen this controls whether the player must be or must not be\nsneaking to be able to target the hangable entity (Item Frame or Paintin
-hotbarSlotCycleMax	hotbarSlotCycleMax	This is the last hotbar slot to use/cycle through\nif the hotbar slot cycle tweak is enabled.\nBasically the cycle will jump back to the first slot\nwhen going over the maximum slot number set here.
-hotbarSlotRandomizerMax	hotbarSlotRandomizerMax	This is the last hotbar slot to use if the hotbar slot randomizer\ntweak is enabled. Basically the selected hotbar slot will be randomly\npicked from 1 to this maximum slot after an item use.
-hotbarSwapOverlayAlignment	hotbarSwapOverlayAlignment	The positioning of the hotbar swap overlay
-hotbarSwapOverlayOffsetX	hotbarSwapOverlayOffsetX	The horizontal offset of the hotbar swap overlay
-hotbarSwapOverlayOffsetY	hotbarSwapOverlayOffsetY	The vertical offset of the hotbar swap overlay
-itemSwapDurabilityThreshold	itemSwapDurabilityThreshold	This is the durability threshold (in uses lef
-itemUsePacketCheckBypass	itemUsePacketCheckBypass	Bypass the new distance/coordinate check that was added in 1.18.2.\n\nThat check breaks the \"accurate placement protocol\" and causes\nany blocks placed with a rotation (or other propert
-mapPreviewRequireShift	mapPreviewRequireShift	Whether holding shift is required for the Map Preview
-mapPreviewSize	mapPreviewSize	The size of the rendered map previews
-periodicAttackInterval	periodicAttackInterval	The number of game ticks between automatic attacks (left click
-periodicUseInterval	periodicUseInterval	The number of game ticks between automatic uses (right click
-periodicHoldAttackDuration	periodicHoldAttackDuration	The number of game ticks to hold down attack
-periodicHoldAttackInterval	periodicHoldAttackInterval	The number of game ticks between starting to hold down attack (left clic
-periodicHoldUseDuration	periodicHoldUseDuration	The number of game ticks to hold down use
-periodicHoldUseInterval	periodicHoldUseInterval	The number of game ticks between starting to hold down use (right clic
-permanentSneakAllowInGUIs	permanentSneakAllowInGUIs	hen the permanent sneak tweak will\nalso work while GUIs are open
-placementGridSize	placementGridSize	croll while\nholding down the tweak toggle keybind.
-placementLimit	placementLimit	croll while\nholding down the tweak toggle keybind.
-placementRestrictionMode	placementRestrictionMode	The Placement Restriction mode to use (hotkey-selectabl
-placementRestrictionTiedToFast	placementRestrictionTiedToFast	he Placement Restriction mode will toggle\nits state of/off when you toggle the Fast Placement mode.
-potionWarningBeneficialOnly	potionWarningBeneficialOnly	Only warn about potion effects running out that are marked as \"beneficial\"
-potionWarningThreshold	potionWarningThreshold	The remaining duration of potion effects (in tick
-rememberFlexibleFromClick	rememberFlexibleFromClick	nas long as the use key (right clic
-renderLimitItem	renderLimitItem	e. to disable this limit.
-renderLimitXPOrb	renderLimitXPOrb	e. to disable this limit.
-sculkSensorPulseLength	sculkSensorPulseLength	f the 'tweakSculkPulseLength' tweak is enabled.
-shulkerDisplayBgColor	shulkerDisplayBgColor	Enables tinting/coloring the Shulker Box display\nbackground texture with the dye color of the box
-shulkerDisplayRequireShift	shulkerDisplayRequireShift	Whether or not holding shift is required for the Shulker Box preview
-slotSyncWorkaround	slotSyncWorkaround	This prevents the server from overriding the durability or\nstack size on items that are being used quickly for example\nwith the fast right click tweak.
-slotSyncWorkaroundAlways	slotSyncWorkaroundAlways	uch as Litematica's Easy Place mode.
-snapAimIndicator	snapAimIndicator	Whether or not to render the snap aim angle indicator
-snapAimIndicatorColor	snapAimIndicatorColor	The color for the snap aim indicator background
-snapAimMode	snapAimMode	r both
-snapAimOnlyCloseToAngle	snapAimOnlyCloseToAngle	hen the snap aim only snaps to the angle\nwhen the internal angle is within a certain distance of it.\nThe threshold can be set in snapAimThreshold
-snapAimPitchOvershoot	snapAimPitchOvershoot	Whether or not to allow overshooting the pitch angle\nfrom the normal +/- 90 degrees up to +/- 180 degrees
-snapAimPitchStep	snapAimPitchStep	The pitch angle step of the snap aim tweak
-snapAimThresholdPitch	snapAimThresholdPitch	The angle threshold inside which the player rotation will\nbe snapped to the snap angle.
-snapAimThresholdYaw	snapAimThresholdYaw	The angle threshold inside which the player rotation will\nbe snapped to the snap angle.
-snapAimYawStep	snapAimYawStep	The yaw angle step of the snap aim tweak
-structureBlockMaxSize	structureBlockMaxSize	The maximum dimensions for a Structure Block's saved area
-toolSwitchableSlots	toolSwitchableSlots	ut it will only\nswap new tools to these slots
-toolSwitchIgnoredSlots	toolSwitchIgnoredSlots	The slots where the Tool Switch tweak does not work when they are active.
-zoomAdjustMouseSensitivity	zoomAdjustMouseSensitivity	hen the mouse sensitivity is reduced\nwhile the zoom feature is enabled and the zoom key is active
-zoomFov	zoomFov	The FOV value used for the zoom feature
-elytraFix	elytraFix	o this only affects landing now.
-macHorizontalScroll	macHorizontalScroll	hile not breaking all the scroll handling\nin malilib-based mods.
-ravagerClientBlockBreakFix	ravagerClientBlockBreakFix	nwhich causes annoying ghost blocks/block desyncs
-blockTypeBreakRestrictionListType	blockTypeBreakRestrictionListType	The restriction list type for the Block Type Break Restriction tweak
-blockTypeBreakRestrictionBlackList	blockTypeBreakRestrictionBlackList	mmutableList.of("minecraft:budding_amethyst
-blockTypeBreakRestrictionWhiteList	blockTypeBreakRestrictionWhiteList	mmutableList.of
-creativeExtraItems	creativeExtraItems	minecraft:structure_block{BlockEntityTag:{mode:\"CORNER\"}}
-entityTypeAttackRestrictionListType	entityTypeAttackRestrictionListType	The restriction list type for the Entity Type Attack Restriction tweak
-entityTypeAttackRestrictionBlackList	entityTypeAttackRestrictionBlackList	mmutableList.of("minecraft:villager
-entityTypeAttackRestrictionWhiteList	entityTypeAttackRestrictionWhiteList	mmutableList.of
-entityWeaponMapping	entityWeaponMapping	inecraft:wooden_axe
-fastPlacementItemListType	fastPlacementItemListType	The item restriction type for the Fast Block Placement tweak
-fastPlacementItemBlackList	fastPlacementItemBlackList	minecraft:white_shulker_box
-fastPlacementItemWhiteList	fastPlacementItemWhiteList	mmutableList.of
-fastRightClickBlockListType	fastRightClickBlockListType	The targeted block restriction type for the Fast Right Click tweak
-fastRightClickBlockBlackList	fastRightClickBlockBlackList	minecraft:white_shulker_box
-fastRightClickBlockWhiteList	fastRightClickBlockWhiteList	mmutableList.of
-fastRightClickListType	fastRightClickListType	The item restriction type for the Fast Right Click tweak
-fastRightClickBlackList	fastRightClickBlackList	mmutableList.of("minecraft:firework_rocket
-fastRightClickWhiteList	fastRightClickWhiteList	minecraft:glass_bottle
-flatWorldPresets	flatWorldPresets	Glass;1*minecraft:glass;minecraft:plains;;minecraft:glass
-handRestockListType	handRestockListType	The restriction list type for the Hand Restock tweak
-handRestockBlackList	handRestockBlackList	minecraft:water_bucket
-handRestockWhiteList	handRestockWhiteList	mmutableList.of
-potionWarningListType	potionWarningListType	The list type for potion warning effects
-potionWarningBlackList	potionWarningBlackList	minecraft:weakness
-potionWarningWhiteList	potionWarningWhiteList	minecraft:water_breathing
-repairModeSlots	repairModeSlots	offhand
-unstackingItems	unstackingItems	minecraft:glass_bottle
-disableArmorStandRendering	disableArmorStandRendering	Disables all Armor Stand entity rendering
-disableAxeStripping	disableAxeStripping	Disables stripping logs with an axe
-disableBatSpawning	disableBatSpawning	Disables Bat spawning in single player
-disableBeaconBeamRendering	disableBeaconBeamRendering	Disables Beacon beam rendering
-disableBlockBreakingParticles	disableBlockBreakingParticles	Removes the block breaking particles.\n(This is originally from usefulmod by nessie
-disableDoubleTapSprint	disableDoubleTapSprint	Disables the double-tap-forward-key sprinting
-disableBossBar	disableBossBar	Disables boss bar rendering
-disableBossFog	disableBossFog	Removes the fog that boss mobs cause
-disableChunkRendering	disableChunkRendering	Disables chunk (re
-disableClientEntityUpdates	disableClientEntityUpdates	Disables ALL except player entity updates on the client.\nThis is mainly meant for situations where you need to be\nable to do stuff to fix excessive entity count related problems
-disableClientLightUpdates	disableClientLightUpdates	Disables all client-side light updates
-disableConstantChunkSaving	disableConstantChunkSaving	n addition to the normal auto-save cycle.
-disableCreativeMenuInfestedBlocks	disableCreativeMenuInfestedBlocks	Removes infested stone blocks from the creative search inventory
-disableDeadMobRendering	disableDeadMobRendering	Prevents rendering dead mobs (entities that are at 0 healt
-disableDeadMobTargeting	disableDeadMobTargeting	Prevents targeting entities that are at 0 health.\nThis fixes for example hitting already dead mobs.
-disableEntityRendering	disableEntityRendering	Disables ALL except player entity rendering.\nThis is mainly meant for situations where you need to be\nable to do stuff to fix excessive entity count related problems
-disableEntityTicking	disableEntityTicking	Prevent everything except player entities from getting ticked
-disableFallingBlockEntityRendering	disableFallingBlockEntityRendering	hen falling block entities won't be rendered at all
-disableFirstPersonEffectParticles	disableFirstPersonEffectParticles	Removes the potion effect particles/swirlies in first person\n(from the player itsel
-disableInventoryEffectRendering	disableInventoryEffectRendering	Removes the potion effect rendering from the inventory GUIs
-disableItemSwitchRenderCooldown	disableItemSwitchRenderCooldown	hen there won't be any cooldown/equip animation\nwhen switching the held item or using the item.
-disableMobSpawnerMobRendering	disableMobSpawnerMobRendering	Removes the entity rendering from mob spawners
-disableNauseaEffect	disableNauseaEffect	Disables the nausea visual effects
-disableNetherFog	disableNetherFog	Removes the fog in the Nether
-disableNetherPortalSound	disableNetherPortalSound	Disables the Nether Portal sound
-disableObserver	disableObserver	Disable Observers from triggering at all
-disableOffhandRendering	disableOffhandRendering	Disables the offhand item from getting rendered
-disableParticles	disableParticles	Disables all particles
-disablePortalGuiClosing	disablePortalGuiClosing	hen you can still open GUIs while in a Nether Portal
-disableRainEffects	disableRainEffects	Disables rain rendering and sounds
-disableRenderingScaffolding	disableRenderingScaffolding	Disables rendering of Scaffolding Blocks
-disableRenderDistanceFog	disableRenderDistanceFog	Disables the fog that increases around the render distance
-disableScoreboardRendering	disableScoreboardRendering	Removes the sidebar scoreboard rendering
-disableShulkerBoxTooltip	disableShulkerBoxTooltip	Disables the vanilla text tooltip for Shulker Box contents
-disableShovelPathing	disableShovelPathing	Disables converting grass etc. to Path Blocks with a shovel
-disableSignGui	disableSignGui	Prevent the Sign edit GUI from opening
-disableSkyDarkness	disableSkyDarkness	Disables the sky darkness below y = 63\n\n(By moving the threshold y to 2 blocks below the bottom of the world instea
-disableSlimeBlockSlowdown	disableSlimeBlockSlowdown	Removes the slowdown from walking on Slime Blocks.\n(This is originally from usefulmod by nessie
-disableStatusEffectHud	disableStatusEffectHud	Disables the status effect HUD rendering (which is usually\nin the top right corner of the scree
-disableTileEntityRendering	disableTileEntityRendering	Prevents all TileEntity renderers from rendering
-disableTileEntityTicking	disableTileEntityTicking	Prevent all TileEntities from getting ticked
-disableVillagerTradeLocking	disableVillagerTradeLocking	y always incrementing\nthe max uses as well when the recipe uses is incremented
-disableWallUnsprint	disableWallUnsprint	Touching a wall doesn't drop you out from sprint mode
-disableWorldViewBob	disableWorldViewBob	ut not the hand
-flySpeedPreset	flySpeedPreset	This is just for the mod internally to track the\ncurrently selected fly speed preset
-gammaValueOriginal	gammaValueOriginal	efore the gamma override was enabled
-hotbarScrollCurrentRow	hotbarScrollCurrentRow	This is just for the mod internally to track the\n\"current hotbar row\" for the hotbar scrolling feature
-slimeBlockSlipperinessOriginal	slimeBlockSlipperinessOriginal	The original slipperiness value of Slime Blocks
-snapAimLastPitch	snapAimLastPitch	The last snapped-to pitch value
-snapAimLastYaw	snapAimLastYaw	The last snapped-to yaw value
-tweakAccurateBlockPlacement	tweakAccurateBlockPlacement	o basically either facing into or out\nfrom the block face clicked on.
-tweakAfterClicker	tweakAfterClicker	hich does automatic right\nclicks on the just-placed block.\nUseful for example for Repeaters (setting the dela
-tweakAimLock	tweakAimLock	nwhich locks them to the snapped value.\nThis allows locking them \"freely\" to the current value.
-tweakAngelBlock	tweakAngelBlock	hich allows\nplacing blocks in mid-air in Creative mode
-tweakBlockReachOverride	tweakBlockReachOverride	Overrides the block reach distance with\nthe one set in Generic -> blockReachDistance
-tweakBlockTypeBreakRestriction	tweakBlockTypeBreakRestriction	Restricts which blocks you are able to break (manuall
-tweakBreakingGrid	tweakBreakingGrid	croll while\nholding down the tweak toggle keybind.
-tweakBreakingRestriction	tweakBreakingRestriction	iagona
-tweakChatBackgroundColor	tweakChatBackgroundColor	Overrides the default chat background color\nwith the one from Generics -> 'chatBackgroundColor'
-tweakChatPersistentText	tweakChatPersistentText	Stores the text from the chat input text field\nand restores it when the chat is opened again
-tweakChatTimestamp	tweakChatTimestamp	Adds timestamps to chat messages
-tweakCommandBlockExtraFields	tweakCommandBlockExtraFields	nd seeing the stats results
-tweakCreativeExtraItems	tweakCreativeExtraItems	Adds custom items to item groups.\nSee Lists -> 'creativeExtraItems' to control which items are added to the groups.\nNote: Currently these will be added to the Transportation group\n(because it has the elast item
-tweakCustomFlatPresets	tweakCustomFlatPresets	Allows adding custom flat world presets to the list.\nThe presets are defined in Lists -> flatWorldPresets
-tweakCustomFlyDeceleration	tweakCustomFlyDeceleration	Allows changing the fly deceleration in creative or spectator mode.\nThis is mainly meant for faster deceleration ie. less \"glide\"\nwhen releasing the movement keys.\nSee Generic -> flyDecelerationRampValue
-tweakCustomInventoryScreenScale	tweakCustomInventoryScreenScale	Allows using a custom GUI scale for any inventory screen.\nSee Generic -> 搂ecustomInventoryGuiScale搂r for the scale value
-tweakElytraCamera	tweakElytraCamera	Allows locking the real player rotations while holding the 'elytraCamera' activation key.\nThe controls will then only affect the separate 'camera rotations' for the rendering/camera.\nMeant for things like looking down/around while elytra flying nice and straight.
-tweakEntityTypeAttackRestriction	tweakEntityTypeAttackRestriction	Restricts which entities you are able to attack (manuall
-tweakEmptyShulkerBoxesStack	tweakEmptyShulkerBoxesStack	Enables empty Shulker Boxes stacking up to 64.\nNOTE: They will also stack inside inventories!\nOn servers this will cause desyncs/glitches\nunless the server has a mod that does the same.\nIn single player this changes shulker box based system behaviour.
-tweakEmptyShulkerBoxesStackOnGround	tweakEmptyShulkerBoxesStackOnGround	Enables empty Shulker Boxes stacking up to 64\nwhen as items on the ground
-tweakExplosionReducedParticles	tweakExplosionReducedParticles	hen all explosion particles will use the\nEXPLOSION_NORMAL particle instead of possibly\nthe EXPLOSION_LARGE or EXPLOSION_HUGE particles
-tweakF3Cursor	tweakF3Cursor	Enables always rendering the F3 screen cursor
-tweakFakeSneaking	tweakFakeSneaking	Enables \"fake sneaking\" ie. prevents you from falling from edges\nwithout slowing down the movement speed
-tweakFakeSneakPlacement	tweakFakeSneakPlacement	ust the apparent effect is similar.
-tweakFastBlockPlacement	tweakFastBlockPlacement	Enables fast/convenient block placement when moving\nthe cursor over new blocks
-tweakFastLeftClick	tweakFastLeftClick	Enables automatic fast left clicking while holding down\nthe attack button (left clic
-tweakFastRightClick	tweakFastRightClick	Enables automatic fast right clicking while holding down\nthe use button (right clic
-tweakFillCloneLimit	tweakFillCloneLimit	nin the 'fillCloneLimit' config value
-tweakFlySpeed	tweakFlySpeed	Enables overriding the fly speed in creative or spectator mode\nand using some presets for it
-tweakFlexibleBlockPlacement	tweakFlexibleBlockPlacement	hile holding down the\nhotkeys for those modes.
-tweakFreeCamera	tweakFreeCamera	nbut where the player will remain in place where\nyou first activate the free camera mode
-tweakGammaOverride	tweakGammaOverride	Overrides the video settings gamma value with\nthe one set in the Generic configs
-tweakHandRestock	tweakHandRestock	Enables swapping a new stack to the main or the offhand\nwhen the previous stack runs out
-tweakHangableEntityBypass	tweakHangableEntityBypass	Allows not targeting hangable entities (Item Frames and Painting
-tweakHoldAttack	tweakHoldAttack	Emulates holding down the attack button
-tweakHoldUse	tweakHoldUse	Emulates holding down the use button
-tweakHotbarScroll	tweakHotbarScroll	Enables the hotbar swapping via scrolling feature
-tweakHotbarSlotCycle	tweakHotbarSlotCycle	croll while\nholding down the tweak toggle keybind.
-tweakHotbarSlotRandomizer	tweakHotbarSlotRandomizer	croll while\nholding down the tweak toggle keybind.
-tweakHotbarSwap	tweakHotbarSwap	Enables the hotbar swapping via hotkeys feature
-tweakInventoryPreview	tweakInventoryPreview	Enables an inventory preview while having the cursor over\na block or an entity with an inventory and holding down\nthe configured hotkey.
-tweakItemUnstackingProtection	tweakItemUnstackingProtection	hen items configured in Lists -> unstackingItems\nwon't be allowed to spill out when using.\nThis is meant for example to prevent throwing buckets\ninto lava when filling them.
-tweakLavaVisibility	tweakLavaVisibility	nwill greatly increase the visibility under lava.
-tweakMapPreview	tweakMapPreview	hen holding shift over maps in an inventory\nwill render a preview of the map
-tweakMovementKeysLast	tweakMovementKeysLast	nbut instead the last pressed key is the active input.
-tweakPeriodicAttack	tweakPeriodicAttack	Enables periodic attacks (left click
-tweakPeriodicUse	tweakPeriodicUse	Enables periodic uses (right click
-tweakPeriodicHoldAttack	tweakPeriodicHoldAttack	Enables periodically holding attack for a configurable amount of time.\nConfigure the interval in Generic -> periodicHoldAttackInterval\nand the duration in periodicHoldAttackDuration\n搂6Note: You should not use the normal hold attack\n搂6or the periodic attack at the same time
-tweakPeriodicHoldUse	tweakPeriodicHoldUse	Enables periodically holding use for a configurable amount of time.\nConfigure the interval in Generic -> periodicHoldUseInterval\nand the duration in periodicHoldUseDuration\\n搂6Note: You should not use the normal hold use\n搂6or the periodic use at the same time
-tweakPermanentSneak	tweakPermanentSneak	he player will be sneaking the entire time
-tweakPermanentSprint	tweakPermanentSprint	he player will be always sprinting when moving forward
-tweakPlacementGrid	tweakPlacementGrid	croll while\nholding down the tweak toggle keybind.
-tweakPlacementLimit	tweakPlacementLimit	croll while\nholding down the tweak toggle keybind.
-tweakPlacementRestriction	tweakPlacementRestriction	iagona
-tweakPlacementRestrictionFirst	tweakPlacementRestrictionFirst	Restricts block placement so that you can only\nplace blocks against the same block type\nyou first clicked on
-tweakPlacementRestrictionHand	tweakPlacementRestrictionHand	Restricts block placement so that you can only\nplace blocks against the same block type\nyou are holding in your hand
-tweakPlayerInventoryPeek	tweakPlayerInventoryPeek	hile holding the\nconfigured hotkey key for it.
-tweakPotionWarning	tweakPotionWarning	Prints a warning message to the hotbar when\nnon-ambient potion effects are about to run out
-tweakPrintDeathCoordinates	tweakPrintDeathCoordinates	Enables printing the player's coordinates to chat on death.\nThis feature is originally from usefulmod by nessie.
-tweakPickBeforePlace	tweakPickBeforePlace	he same block\nis switched to hand that you are placing against
-tweakPlayerListAlwaysVisible	tweakPlayerListAlwaysVisible	hen the player list is always rendered without\nhaving to hold down the key (tab by defaul
-tweakRenderEdgeChunks	tweakRenderEdgeChunks	eaning that the edge-most chunk\nof the client's loaded won't render in vanilla.\n搂lThis is also very helpful in the Free Camera mode!搂r
-tweakRenderInvisibleEntities	tweakRenderInvisibleEntities	nvisible entities are rendered like\nthey would be in spectator mode.
-tweakRenderLimitEntities	tweakRenderLimitEntities	ee Generic configs for the limits.
-tweakRepairMode	tweakRepairMode	hen fully repaired items held in hand will\nbe swapped to damaged items that have Mending on them.
-tweakSculkPulseLength	tweakSculkPulseLength	Allows modifying the Sculk Sensor pulse length. Set the pulse length in Generic -> sculkSensorPulseLength
-tweakShulkerBoxDisplay	tweakShulkerBoxDisplay	Enables the Shulker Box contents display when hovering\nover them in an inventory and holding shift
-tweakSignCopy	tweakSignCopy	y enabling that tweak after making the first sign.
-tweakSnapAim	tweakSnapAim	o make the player face to pre-set exact yaw rotations
-tweakSnapAimLock	tweakSnapAimLock	ocking the yaw and/or pitch rotations\nto the currently snapped value
-tweakSpectatorTeleport	tweakSpectatorTeleport	Allows spectators to teleport to other spectators.\nThis is originally from usefulmod by nessie.
-tweakStructureBlockLimit	tweakStructureBlockLimit	Allows overriding the structure block limit.\nThe new limit is set in Generic -> structureBlockMaxSize
-tweakSwapAlmostBrokenTools	tweakSwapAlmostBrokenTools	hen any damageable items held in the hand that\nare about to break will be swapped to fresh ones
-tweakTabCompleteCoordinate	tweakTabCompleteCoordinate	ill use the player's position\ninstead of adding the ~ character.
-tweakToolSwitch	tweakToolSwitch	Enables automatically switching to an effective tool for the targeted block
-tweakWeaponSwitch	tweakWeaponSwitch	Enables automatically switching to a weapon for the targeted entity
-tweakYMirror	tweakYMirror	nif you have to place them against another slab for example.
-tweakZoom	tweakZoom	oom in
-accurateBlockPlacementInto	accurateBlockPlacementInto	The key to activate the accurate block placement\nmode/overlay for placing the block facing\ninto the clicked block face
-accurateBlockPlacementReverse	accurateBlockPlacementReverse	The key to activate the accurate block placement\nmode/overlay for placing the block facing\nthe opposite way from what it would normally be
-breakingRestrictionModeColumn	breakingRestrictionModeColumn	Switch the Breaking Restriction mode to the Column mode
-breakingRestrictionModeDiagonal	breakingRestrictionModeDiagonal	Switch the Breaking Restriction mode to the Diagonal mode
-breakingRestrictionModeFace	breakingRestrictionModeFace	Switch the Breaking Restriction mode to the Face mode
-breakingRestrictionModeLayer	breakingRestrictionModeLayer	Switch the Breaking Restriction mode to the Layer mode
-breakingRestrictionModeLine	breakingRestrictionModeLine	Switch the Breaking Restriction mode to the Line mode
-breakingRestrictionModePlane	breakingRestrictionModePlane	Switch the Breaking Restriction mode to the Plane mode
-copySignText	copySignText	Copies the text from an already-placed sign.\nThat text can be used with the tweakSignCopy tweak.
-elytraCamera	elytraCamera	nly allowing the\ninputs (mous
-flexibleBlockPlacementAdjacent	flexibleBlockPlacementAdjacent	The key to activate the flexible block placement\nmode/overlay for placing the block in an adjacent position
-flexibleBlockPlacementOffset	flexibleBlockPlacementOffset	The key to activate the flexible block placement\nmode/overlay for placing the block in a\noffset or diagonal position
-flexibleBlockPlacementRotation	flexibleBlockPlacementRotation	The key to activate the flexible block placement\nmode/overlay for placing the block with\na rotation/facing
-flyPreset1	flyPreset1	Switch to fly preset 1
-flyPreset2	flyPreset2	Switch to fly preset 2
-flyPreset3	flyPreset3	Switch to fly preset 3
-flyPreset4	flyPreset4	Switch to fly preset 4
-freeCameraPlayerInputs	freeCameraPlayerInputs	Toggle the Generic -> freeCameraPlayerInputs option
-freeCameraPlayerMovement	freeCameraPlayerMovement	Toggle the Generic -> freeCameraPlayerMovement option
-hotbarScroll	hotbarScroll	The key to hold to allow scrolling the hotbar\nthrough the player inventory rows
-hotbarSwapBase	hotbarSwapBase	The base key to show the hotbar/inventory overlay
-hotbarSwap1	hotbarSwap1	Swap the hotbar with the top-most inventory row
-hotbarSwap2	hotbarSwap2	Swap the hotbar with the middle inventory row
-hotbarSwap3	hotbarSwap3	Swap the hotbar with the bottom-most inventory row
-inventoryPreview	inventoryPreview	The key to activate the inventory preview feature
-openConfigGui	openConfigGui	The key open the in-game config GUI
-placementYMirror	placementYMirror	The key to mirror the targeted y-position within the block
-playerInventoryPeek	playerInventoryPeek	The key to activate the player inventory peek/preview feature
-placementRestrictionModeColumn	placementRestrictionModeColumn	Switch the Placement Restriction mode to the Column mode
-placementRestrictionModeDiagonal	placementRestrictionModeDiagonal	Switch the Placement Restriction mode to the Diagonal mode
-placementRestrictionModeFace	placementRestrictionModeFace	Switch the Placement Restriction mode to the Face mode
-placementRestrictionModeLayer	placementRestrictionModeLayer	Switch the Placement Restriction mode to the Layer mode
-placementRestrictionModeLine	placementRestrictionModeLine	Switch the Placement Restriction mode to the Line mode
-placementRestrictionModePlane	placementRestrictionModePlane	Switch the Placement Restriction mode to the Plane mode
-sitDownNearbyPets	sitDownNearbyPets	Makes all nearby pets sit down
-skipAllRendering	skipAllRendering	Toggles skipping _all_ rendering
-skipWorldRendering	skipWorldRendering	Toggles skipping world rendering
-standUpNearbyPets	standUpNearbyPets	Makes all nearby pets stand up
-swapElytraChestplate	swapElytraChestplate	Swaps the currently equipped item in the chest slot between an Elytra and a Chest Plate
-toggleCarpetAccuratePlacementProtocol	toggleCarpetAccuratePlacementProtocol	Toggles the value of the Generic -> 'carpetAccuratePlacementProtocol' option
-toggleGrabCursor	toggleGrabCursor	epending on the current state
-toolPick	toolPick	Switches to the effective tool for the targeted block
-writeMapsAsImages	writeMapsAsImages	Writes all the currently available maps as images\nto the 'config/tweakeroo/map_images/<worldname>/' directory
-zoomActivate	zoomActivate	als
+afterClickerClickCount	The number of right clicks to do per placed block when\ntweakAfterClicker is enabled
+放置后右键次数
+angelBlockPlacementDistance	The distance from the player blocks can be placed in\nthe air when tweakAngelBlock is enabled.\n5 is the maximum the server allows.
+浮空放置距离
+blockReachDistance	The block reach distance to use if the\noverride tweak is enabled.\nThe maximum the server allows is 8 for placing, 6 for breaking.
+放置距离
+blockTypeBreakRestrictionWarn	Selects which type of warning message to show (if any)\nwhen the Block Type Break Restriction feature prevents breaking a block
+方块破坏限制警告类型
+breakingGridSize	The grid interval size for the grid breaking mode.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
+破坏格点大小
+breakingRestrictionMode	The Breaking Restriction mode to use (hotkey-selectable)
+破坏限制模式
+chatBackgroundColor	The background color for the chat messages,\nif 'tweakChatBackgroundColor' is enabled
+聊天框背景颜色
+chatTimeFormat	The time format for chat messages, if tweakChatTimestamp is enabled\nUses the Java SimpleDateFormat format specifiers.
+聊天时间格式
+carpetAccuratePlacementProtocol	If enabled, then the Flexible Block Placement and the\nAccurate Block Placement use the protocol implemented in Carpet mod.\n搂6Note: This is required for any block rotations to work, other than\n搂6blocks that only care about the block side you click on (Hoppers, Logs etc.)
+Carpet精准放置协议
+clientPlacementRotation	Enable single player and client side placement rotations,\nsuch as Accurate Placement working in single player without Carpet mod
+客户端精准放置
+customInventoryGuiScale	The GUI scale value to use for inventory screens, if\n搂etweakCustomInventoryScreenScale搂r is enabled.
+自定义物品栏大小
+elytraCameraIndicator	Whether or not to render the real pitch angle\nindicator when the elytra camera mode is active
+鞘翅视角指示器
+entityTypeAttackRestrictionWarn	Selects which type of warning message to show (if any)\nwhen the Entity Type Attack Restriction feature prevents attacking an entity
+实体攻击限制警告类型
+fastBlockPlacementCount	The maximum number of blocks to place per game tick\nwith the Fast Block Placement tweak
+快速放置数量
+fastLeftClickAllowTools	Allow the Fast Left Click to work in survival\nalso while holding tool items
+可快速左键工具
+fastLeftClickCount	The number of left clicks to do per game tick when\ntweakFastLeftClick is enabled and the attack button is held down
+快速左键数量
+fastPlacementRememberOrientation	If enabled, then the Fast Block Placement feature will always remember\nthe orientation of the first block you place.\nWithout this, the orientation will only be remembered\nwith the Flexible Block Placement enabled and active.
+记忆快速放置朝向
+fastRightClickCount	The number of right clicks to do per game tick when\ntweakFastRightClick is enabled and the use button is held down
+快速右键数量
+fillCloneLimit	The new /fill and /clone block limit in single player,\nif the tweak to override them is enabled
+填充/克隆上限
+flexibleBlockPlacementOverlayColor	The color of the currently pointed-at\nregion in block placement the overlay
+灵活放置颜色
+flyDecelerationFactor	This adjusts how quickly the player will stop if the\n'customFlyDeceleration' tweak is enabled
+空中急停系数
+flySpeedPreset1	The fly speed for preset 1
+飞行速度预设1
+flySpeedPreset2	The fly speed for preset 2
+飞行速度预设2
+flySpeedPreset3	The fly speed for preset 3
+飞行速度预设3
+flySpeedPreset4	The fly speed for preset 4
+飞行速度预设4
+freeCameraPlayerInputs	When enabled, the attacks and use actions\n(ie. left and right clicks) in Free Camera mode are\nlet through to the actual player.
+灵魂出窍操作
+freeCameraPlayerMovement	When enabled, the movement inputs in the Free Camera mode\nwill move the actual client player instead of the camera
+灵魂出窍移动
+gammaOverrideValue	The gamma value to use when the override option is enabled
+覆写gamma值
+handRestockPre	If enabled, then hand restocking happens\nbefore the stack runs out
+自动补货
+handRestockPreThreshold	The stack size threshold at which Hand Restock will happen\nin the pre-restock mode
+自动补货阈值
+hangableEntityBypassInverse	If the hangableEntityTargetingBypass tweak is enabled,\nthen this controls whether the player must be or must not be\nsneaking to be able to target the hangable entity (Item Frame or Painting).\n > true - Sneaking = ignore/bypass the entity\n > false - Sneaking = target the entity
+
+hotbarSlotCycleMax	This is the last hotbar slot to use/cycle through\nif the hotbar slot cycle tweak is enabled.\nBasically the cycle will jump back to the first slot\nwhen going over the maximum slot number set here.
+
+hotbarSlotRandomizerMax	This is the last hotbar slot to use if the hotbar slot randomizer\ntweak is enabled. Basically the selected hotbar slot will be randomly\npicked from 1 to this maximum slot after an item use.
+
+hotbarSwapOverlayAlignment	The positioning of the hotbar swap overlay
+
+hotbarSwapOverlayOffsetX	The horizontal offset of the hotbar swap overlay
+
+hotbarSwapOverlayOffsetY	The vertical offset of the hotbar swap overlay
+
+itemSwapDurabilityThreshold	This is the durability threshold (in uses left)\nfor the low-durability item swap feature.\nNote that items with low total durability will go lower\nand be swapped at 5%% left.
+
+itemUsePacketCheckBypass	Bypass the new distance/coordinate check that was added in 1.18.2.\n\nThat check breaks the \"accurate placement protocol\" and causes\nany blocks placed with a rotation (or other property) request to just become ghost blocks.\n\nThere is basically no need to ever disable this.\nThe check didn't even exist ever before 1.18.2.
+关闭合法放置检测
+mapPreviewRequireShift	Whether holding shift is required for the Map Preview
+潜行以查看地图
+mapPreviewSize	The size of the rendered map previews
+地图预览大小
+periodicAttackInterval	The number of game ticks between automatic attacks (left clicks)
+定时攻击间隔
+periodicUseInterval	The number of game ticks between automatic uses (right clicks)
+定时使用间隔
+periodicHoldAttackDuration	The number of game ticks to hold down attack
+定时长按攻击时长
+periodicHoldAttackInterval	The number of game ticks between starting to hold down attack (left click)
+定时长按攻击间隔
+periodicHoldUseDuration	The number of game ticks to hold down use
+定时长按使用时长
+periodicHoldUseInterval	The number of game ticks between starting to hold down use (right click)
+定时长按使用时长
+permanentSneakAllowInGUIs	If true, then the permanent sneak tweak will\nalso work while GUIs are open
+界面仍永久潜行
+placementGridSize	The grid interval size for the grid placement mode.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
+放置格点大小
+placementLimit	The number of blocks you are able to place at maximum per\nright click, if tweakPlacementLimit is enabled.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
+放置上限
+placementRestrictionMode	The Placement Restriction mode to use (hotkey-selectable)
+限制放置模式
+placementRestrictionTiedToFast	When enabled, the Placement Restriction mode will toggle\nits state of/off when you toggle the Fast Placement mode.
+同步快速、灵活放置
+potionWarningBeneficialOnly	Only warn about potion effects running out that are marked as \"beneficial\"
+仅预警正面药水效果
+potionWarningThreshold	The remaining duration of potion effects (in ticks)\nafter which the warning will start showing
+药水效果预警阈值
+rememberFlexibleFromClick	If enabled, then the Flexible Block Placement status\nwill be remembered from the first placed block,\nas long as the use key (right click) is held down.\nBasically you don't have to keep holding all the flexible\nactivation keys to fast place all the blocks in the same orientation.
+记忆灵活放置
+renderLimitItem	Maximum number of item entities rendered per frame.\nUse -1 for normal behaviour, ie. to disable this limit.
+掉落物渲染上限
+renderLimitXPOrb	Maximum number of XP orb entities rendered per frame.\nUse -1 for normal behaviour, ie. to disable this limit.
+经验球渲染上限
+sculkSensorPulseLength	The pulse length for Sculk Sensors, if the 'tweakSculkPulseLength' tweak is enabled.
+幽匿感测体脉冲时长
+shulkerDisplayBgColor	Enables tinting/coloring the Shulker Box display\nbackground texture with the dye color of the box
+潜影盒预览背景颜色
+shulkerDisplayRequireShift	Whether or not holding shift is required for the Shulker Box preview
+潜行以预览潜影盒
+slotSyncWorkaround	This prevents the server from overriding the durability or\nstack size on items that are being used quickly for example\nwith the fast right click tweak.
+同步背包物品使用
+slotSyncWorkaroundAlways	Enables the slot sync workaround at all times when the use key\nis held, not only when using fast right click or fast block placement.\nThis is mainly for other mods that may quickly use items when\nholding down use, such as Litematica's Easy Place mode.
+永久同步背包物品使用
+snapAimIndicator	Whether or not to render the snap aim angle indicator
+吸附视角指示器
+snapAimIndicatorColor	The color for the snap aim indicator background
+吸附视角指示器颜色
+snapAimMode	Snap aim mode: yaw, or pitch, or both
+吸附视角模式
+snapAimOnlyCloseToAngle	If enabled, then the snap aim only snaps to the angle\nwhen the internal angle is within a certain distance of it.\nThe threshold can be set in snapAimThreshold
+仅靠近时吸附视角
+snapAimPitchOvershoot	Whether or not to allow overshooting the pitch angle\nfrom the normal +/- 90 degrees up to +/- 180 degrees
+吸附过摇偏航角
+snapAimPitchStep	The pitch angle step of the snap aim tweak
+偏航角吸附步长
+snapAimThresholdPitch	The angle threshold inside which the player rotation will\nbe snapped to the snap angle.
+偏航角吸附阈值
+snapAimThresholdYaw	The angle threshold inside which the player rotation will\nbe snapped to the snap angle.
+俯仰角吸附阈值
+snapAimYawStep	The yaw angle step of the snap aim tweak
+俯仰角吸附步长
+structureBlockMaxSize	The maximum dimensions for a Structure Block's saved area
+结构方块大小上限
+toolSwitchableSlots	The slots that the Tool Switch tweak is allowed to put tools to.\nNote that Tool Switch can also switch to other slots in the hotbar,\nif they already have the preferred tool, but it will only\nswap new tools to these slots
+自动切换工具放置槽位
+toolSwitchIgnoredSlots	The slots where the Tool Switch tweak does not work when they are active.
+自动切换工具避开槽位
+zoomAdjustMouseSensitivity	If enabled, then the mouse sensitivity is reduced\nwhile the zoom feature is enabled and the zoom key is active
+放大灵敏度
+zoomFov	The FOV value used for the zoom feature
+放大视场角
+elytraFix	Elytra landing fix by Earthcomputer and Nessie.\nThe deployment fix is now in vanilla, so this only affects landing now.
+鞘翅修复
+macHorizontalScroll	If you are on Mac/OSX, this applies the same fix/change\nas the hscroll mod, while not breaking all the scroll handling\nin malilib-based mods.
+mac横向滚动修复
+ravagerClientBlockBreakFix	Fixes Ravagers breaking blocks on the client side,\nwhich causes annoying ghost blocks/block desyncs
+劫掠兽破坏方块修复
+blockTypeBreakRestrictionListType	The restriction list type for the Block Type Break Restriction tweak
+方块破坏限制模式
+blockTypeBreakRestrictionBlackList	The blocks that are NOT allowed to be broken while the Block Break Restriction tweak is enabled,\nif the blockBreakRestrictionListType is set to Black List
+不可破坏方块
+blockTypeBreakRestrictionWhiteList	The only blocks that can be broken while the Block Break Restriction tweak is enabled,\nif the blockBreakRestrictionListType is set to White List
+仅可破坏方块
+creativeExtraItems	Extra items that should be appended to the creative inventory.\nCurrently these will appear in the Transportation category.\nIn the future the group per added item will be customizable.
+额外创造模式物品
+entityTypeAttackRestrictionListType	The restriction list type for the Entity Type Attack Restriction tweak
+
+entityTypeAttackRestrictionBlackList	The entities that are NOT allowed to be attacked while the Entity Attack Restriction tweak is enabled,\nif the entityAttackRestrictionListType is set to Black List
+
+entityTypeAttackRestrictionWhiteList	The only entities that can be attacked while the Entity Attack Restriction tweak is enabled,\nif the entityAttackRestrictionListType is set to White List
+
+entityWeaponMapping	Mapping for what weapon should be used with the\n'tweakWeaponSwitch' tweak.\n'<default>' will be used when no other mapping is defined.\n'<ignore>' will not trigger a weapon switch.
+
+fastPlacementItemListType	The item restriction type for the Fast Block Placement tweak
+
+fastPlacementItemBlackList	The items that are NOT allowed to be used for the Fast Block Placement tweak,\nif the fastPlacementItemListType is set to Black List
+
+fastPlacementItemWhiteList	The items that are allowed to be used for the Fast Block Placement tweak,\nif the fastPLacementItemListType is set to White List
+
+fastRightClickBlockListType	The targeted block restriction type for the Fast Right Click tweak
+
+fastRightClickBlockBlackList	The blocks that are NOT allowed to be right clicked on with\nthe Fast Right Click tweak, if the fastRightClickBlockListType is set to Black List
+
+fastRightClickBlockWhiteList	The blocks that are allowed to be right clicked on with\nthe Fast Right Click tweak, if the fastRightClickBlockListType is set to White List
+
+fastRightClickListType	The item restriction type for the Fast Right Click tweak
+
+fastRightClickBlackList	The items that are NOT allowed to be used for the Fast Right Click tweak,\nif the fastRightClickListType is set to Black List
+
+fastRightClickWhiteList	The items that are allowed to be used for the Fast Right Click tweak,\nif the fastRightClickListType is set to White List
+
+flatWorldPresets	Custom flat world preset strings.\nThese are in the format: name;blocks_string;biome;generation_features;icon_item\nThe blocks string format is the vanilla format, such as: 62*minecraft:dirt,minecraft:grass\nThe biome can be the registry name, or the int ID\nThe icon item name format is minecraft:iron_nugget
+
+handRestockListType	The restriction list type for the Hand Restock tweak
+
+handRestockBlackList	The items that are NOT allowed to be restocked with the Hand Restock tweak,\nif the handRestockListType is set to Black List
+
+handRestockWhiteList	The only allowed items that can be restocked with the Hand Restock tweak,\nif the handRestockListType is set to White List
+
+potionWarningListType	The list type for potion warning effects
+
+potionWarningBlackList	The potion effects that will not be warned about
+
+potionWarningWhiteList	The only potion effects that will be warned about
+
+repairModeSlots	The slots the repair mode should use\nValid values: mainhand, offhand, head, chest, legs, feet
+
+unstackingItems	The items that should be considered for the\n'tweakItemUnstackingProtection' tweak
+
+disableArmorStandRendering	Disables all Armor Stand entity rendering
+禁用盔甲架渲染
+disableAxeStripping	Disables stripping logs with an axe
+禁用原木剥皮
+disableBatSpawning	Disables Bat spawning in single player
+禁用蝙蝠生成
+disableBeaconBeamRendering	Disables Beacon beam rendering
+禁用信标光柱渲染
+disableBlockBreakingParticles	Removes the block breaking particles.\n(This is originally from usefulmod by nessie.)
+禁用方块破坏粒子效果
+disableDoubleTapSprint	Disables the double-tap-forward-key sprinting
+禁用双击疾跑
+disableBossBar	Disables boss bar rendering
+禁用boss血条显示
+disableBossFog	Removes the fog that boss mobs cause
+禁用boss迷雾
+disableChunkRendering	Disables chunk (re-)rendering. This will make any block changes non-visible\\nuntil this is disabled again and F3 + A is used to refresh the world rendering.\\nThis might help with low fps in places with lots of block changes in some situations,\\nwhere the block changes are not really relevant at that time.
+禁用区块渲染
+disableClientEntityUpdates	Disables ALL except player entity updates on the client.\nThis is mainly meant for situations where you need to be\nable to do stuff to fix excessive entity count related problems
+禁用客户端实体刷新
+disableClientLightUpdates	Disables all client-side light updates
+禁用客户端亮度更新
+disableConstantChunkSaving	Disables the game saving up to 20 chunks every tick\nall the time, in addition to the normal auto-save cycle.
+禁用区块保存
+disableCreativeMenuInfestedBlocks	Removes infested stone blocks from the creative search inventory
+禁用虫蚀方块
+disableDeadMobRendering	Prevents rendering dead mobs (entities that are at 0 health)
+禁止死亡生物渲染
+disableDeadMobTargeting	Prevents targeting entities that are at 0 health.\nThis fixes for example hitting already dead mobs.
+禁止攻击死亡生物
+disableEntityRendering	Disables ALL except player entity rendering.\nThis is mainly meant for situations where you need to be\nable to do stuff to fix excessive entity count related problems
+禁用实体渲染
+disableEntityTicking	Prevent everything except player entities from getting ticked
+禁用实体更新
+disableFallingBlockEntityRendering	If enabled, then falling block entities won't be rendered at all
+禁用下落方块渲染
+disableFirstPersonEffectParticles	Removes the potion effect particles/swirlies in first person\n(from the player itself)
+禁用玩家视角药水粒子效果
+disableInventoryEffectRendering	Removes the potion effect rendering from the inventory GUIs
+禁用物品栏药水效果显示
+disableItemSwitchRenderCooldown	If true, then there won't be any cooldown/equip animation\nwhen switching the held item or using the item.
+禁用攻击冷却显示
+disableMobSpawnerMobRendering	Removes the entity rendering from mob spawners
+禁用刷怪笼实体渲染
+disableNauseaEffect	Disables the nausea visual effects
+禁用反胃显示效果
+disableNetherFog	Removes the fog in the Nether
+禁用地狱迷雾
+disableNetherPortalSound	Disables the Nether Portal sound
+禁用地狱门音效
+disableObserver	Disable Observers from triggering at all
+禁用侦测器激活
+disableOffhandRendering	Disables the offhand item from getting rendered
+禁用副手物品显示
+disableParticles	Disables all particles
+禁用粒子效果
+disablePortalGuiClosing	If enabled, then you can still open GUIs while in a Nether Portal
+
+disableRainEffects	Disables rain rendering and sounds
+禁用下雨效果
+disableRenderingScaffolding	Disables rendering of Scaffolding Blocks
+禁用脚手架显示
+disableRenderDistanceFog	Disables the fog that increases around the render distance
+禁用渲染迷雾
+disableScoreboardRendering	Removes the sidebar scoreboard rendering
+禁用记分板显示
+disableShulkerBoxTooltip	Disables the vanilla text tooltip for Shulker Box contents
+禁用潜影盒预览
+disableShovelPathing	Disables converting grass etc. to Path Blocks with a shovel
+禁用土径制造
+disableSignGui	Prevent the Sign edit GUI from opening
+禁用告示牌界面
+disableSkyDarkness	Disables the sky darkness below y = 63\n\n(By moving the threshold y to 2 blocks below the bottom of the world instead)
+禁用黑暗天空
+disableSlimeBlockSlowdown	Removes the slowdown from walking on Slime Blocks.\n(This is originally from usefulmod by nessie.)
+禁用史莱姆方块减速
+disableStatusEffectHud	Disables the status effect HUD rendering (which is usually\nin the top right corner of the screen)
+
+disableTileEntityRendering	Prevents all TileEntity renderers from rendering
+禁用方块实体渲染
+disableTileEntityTicking	Prevent all TileEntities from getting ticked
+禁用方块实体更新
+disableVillagerTradeLocking	Prevents villager trades from ever locking, by always incrementing\nthe max uses as well when the recipe uses is incremented
+禁用村民交易锁定
+disableWallUnsprint	Touching a wall doesn't drop you out from sprint mode
+禁用触墙速度惩罚
+disableWorldViewBob	Disables the view bob wobble effect of the world, but not the hand
+
+flySpeedPreset	This is just for the mod internally to track the\ncurrently selected fly speed preset
+飞行速度
+gammaValueOriginal	The original gamma value, before the gamma override was enabled
+默认伽马值
+hotbarScrollCurrentRow	This is just for the mod internally to track the\n\"current hotbar row\" for the hotbar scrolling feature
+目前快捷栏
+slimeBlockSlipperinessOriginal	The original slipperiness value of Slime Blocks
+
+snapAimLastPitch	The last snapped-to pitch value
+
+snapAimLastYaw	The last snapped-to yaw value
+
+tweakAccurateBlockPlacement	Enables a simpler version of Flexible placement, similar to\nthe Carpet mod, so basically either facing into or out\nfrom the block face clicked on.
+精准防止
+tweakAfterClicker	Enables a \"after clicker\" tweak, which does automatic right\nclicks on the just-placed block.\nUseful for example for Repeaters (setting the delay).\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
+放置后右键
+tweakAimLock	Enables an aim lock, locking the yaw and pitch rotations\nto the current values.\nThis is separate from the snap aim lock,\nwhich locks them to the snapped value.\nThis allows locking them \"freely\" to the current value.
+视角锁定
+tweakAngelBlock	Enables an \"Angel Block\" tweak, which allows\nplacing blocks in mid-air in Creative mode
+浮空放置
+tweakBlockReachOverride	Overrides the block reach distance with\nthe one set in Generic -> blockReachDistance
+放置距离覆写
+tweakBlockTypeBreakRestriction	Restricts which blocks you are able to break (manually).\nSee the corresponding 'blockBreakRestriction*' configs in the Lists category.
+方块破坏限制
+tweakBreakingGrid	When enabled, you can only break blocks in\na grid pattern, with a configurable interval.\nTo quickly adjust the interval, scroll while\nholding down the tweak toggle keybind.
+格点破坏
+tweakBreakingRestriction	Enables the Breaking Restriction mode\n  (Plane, Layer, Face, Column, Line, Diagonal).\nBasically only allows you to break blocks\nin those patterns, while holding down the attack key.
+破坏限制
+tweakChatBackgroundColor	Overrides the default chat background color\nwith the one from Generics -> 'chatBackgroundColor'
+覆写聊天框背景颜色
+tweakChatPersistentText	Stores the text from the chat input text field\nand restores it when the chat is opened again
+
+tweakChatTimestamp	Adds timestamps to chat messages
+聊天时间戳  在公屏聊天显示实时时间
+tweakCommandBlockExtraFields	Adds extra fields to the Command Block GUI, for settings\nthe name of the command block, and seeing the stats results
+
+tweakCreativeExtraItems	Adds custom items to item groups.\nSee Lists -> 'creativeExtraItems' to control which items are added to the groups.\nNote: Currently these will be added to the Transportation group\n(because it has the elast items), but in the future\nthe groups will be configurable per added item
+额外创造模式物品
+tweakCustomFlatPresets	Allows adding custom flat world presets to the list.\nThe presets are defined in Lists -> flatWorldPresets
+自定义超平坦预设
+tweakCustomFlyDeceleration	Allows changing the fly deceleration in creative or spectator mode.\nThis is mainly meant for faster deceleration ie. less \"glide\"\nwhen releasing the movement keys.\nSee Generic -> flyDecelerationRampValue
+空中急停
+tweakCustomInventoryScreenScale	Allows using a custom GUI scale for any inventory screen.\nSee Generic -> 搂ecustomInventoryGuiScale搂r for the scale value
+自定义物品栏大小
+tweakElytraCamera	Allows locking the real player rotations while holding the 'elytraCamera' activation key.\nThe controls will then only affect the separate 'camera rotations' for the rendering/camera.\nMeant for things like looking down/around while elytra flying nice and straight.
+鞘翅视角
+tweakEntityTypeAttackRestriction	Restricts which entities you are able to attack (manually).\nSee the corresponding 'entityAttackRestriction*' configs in the Lists category.
+攻击实体类型限制
+tweakEmptyShulkerBoxesStack	Enables empty Shulker Boxes stacking up to 64.\nNOTE: They will also stack inside inventories!\nOn servers this will cause desyncs/glitches\nunless the server has a mod that does the same.\nIn single player this changes shulker box based system behaviour.
+堆叠空物品潜影盒
+tweakEmptyShulkerBoxesStackOnGround	Enables empty Shulker Boxes stacking up to 64\nwhen as items on the ground
+堆叠空掉落物潜影箱
+tweakExplosionReducedParticles	If enabled, then all explosion particles will use the\nEXPLOSION_NORMAL particle instead of possibly\nthe EXPLOSION_LARGE or EXPLOSION_HUGE particles
+减少爆炸效果粒子
+tweakF3Cursor	Enables always rendering the F3 screen cursor
+永久F3准心
+tweakFakeSneaking	Enables \"fake sneaking\" ie. prevents you from falling from edges\nwithout slowing down the movement speed
+伪潜行
+tweakFakeSneakPlacement	This tweak offsets the click position to the adjacent air block\nfrom the block that you actually click on.\nThis basically allows you to place blocks against blocks\nthat have a click action, such as opening inventory GUIs,\nwithout having to sneak. Note that this doesn't not actually\nfake sneaking in any way, just the apparent effect is similar.
+伪潜行放置
+tweakFastBlockPlacement	Enables fast/convenient block placement when moving\nthe cursor over new blocks
+快速放置
+tweakFastLeftClick	Enables automatic fast left clicking while holding down\nthe attack button (left click).\nThe number of clicks per tick is set in the Generic configs.
+快速左键
+tweakFastRightClick	Enables automatic fast right clicking while holding down\nthe use button (right click).\nThe number of clicks per tick is set in the Generic configs.
+快速右键
+tweakFillCloneLimit	Enables overriding the /fill and /clone command\nblock limits in single player.\nThe new limit can be set in the Generic configs,\nin the 'fillCloneLimit' config value
+填充/克隆上限
+tweakFlySpeed	Enables overriding the fly speed in creative or spectator mode\nand using some presets for it
+覆写飞行速度
+tweakFlexibleBlockPlacement	Enables placing blocks in different orientations\nor with an offset, while holding down the\nhotkeys for those modes.
+灵活放置
+tweakFreeCamera	Enables a free camera mode, similar to spectator mode,\nbut where the player will remain in place where\nyou first activate the free camera mode
+灵魂出窍
+tweakGammaOverride	Overrides the video settings gamma value with\nthe one set in the Generic configs
+覆写gamma值
+tweakHandRestock	Enables swapping a new stack to the main or the offhand\nwhen the previous stack runs out
+补货手中物品
+tweakHangableEntityBypass	Allows not targeting hangable entities (Item Frames and Paintings).\nThe Generic -> hangableEntityBypassInverse option can be used to control\nwhether you must be sneaking or not sneaking to be able to target the entity.
+
+tweakHoldAttack	Emulates holding down the attack button
+模拟长按攻击
+tweakHoldUse	Emulates holding down the use button
+模拟长按使用
+tweakHotbarScroll	Enables the hotbar swapping via scrolling feature
+开启快捷栏轮换
+tweakHotbarSlotCycle	Enables cycling the selected hotbar slot after each placed\nblock, up to the set max slot number.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
+
+tweakHotbarSlotRandomizer	Enables randomizing the selected hotbar slot after each placed\nblock, up to the set max slot number.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
+
+tweakHotbarSwap	Enables the hotbar swapping via hotkeys feature
+快捷栏轮换
+tweakInventoryPreview	Enables an inventory preview while having the cursor over\na block or an entity with an inventory and holding down\nthe configured hotkey.
+物品栏预览
+tweakItemUnstackingProtection	If enabled, then items configured in Lists -> unstackingItems\nwon't be allowed to spill out when using.\nThis is meant for example to prevent throwing buckets\ninto lava when filling them.
+
+tweakLavaVisibility	If enabled, then the level of Respiration and Aqua Affinity enchantments,\nand having the Fire Resistance effect active,\nwill greatly increase the visibility under lava.
+岩浆下可视
+tweakMapPreview	If enabled, then holding shift over maps in an inventory\nwill render a preview of the map
+潜行预览地图
+tweakMovementKeysLast	If enabled, then opposite movement keys won't cancel each other,\nbut instead the last pressed key is the active input.
+
+tweakPeriodicAttack	Enables periodic attacks (left clicks)\nConfigure the interval in Generic -> periodicAttackInterval
+定时攻击
+tweakPeriodicUse	Enables periodic uses (right clicks)\nConfigure the interval in Generic -> periodicUseInterval
+定时使用
+tweakPeriodicHoldAttack	Enables periodically holding attack for a configurable amount of time.\nConfigure the interval in Generic -> periodicHoldAttackInterval\nand the duration in periodicHoldAttackDuration\n搂6Note: You should not use the normal hold attack\n搂6or the periodic attack at the same time
+定时长按攻击
+tweakPeriodicHoldUse	Enables periodically holding use for a configurable amount of time.\nConfigure the interval in Generic -> periodicHoldUseInterval\nand the duration in periodicHoldUseDuration\\n搂6Note: You should not use the normal hold use\n搂6or the periodic use at the same time
+定时长按使用
+tweakPermanentSneak	If enabled, the player will be sneaking the entire time
+永久潜行
+tweakPermanentSprint	If enabled, the player will be always sprinting when moving forward
+自动疾跑
+tweakPlacementGrid	When enabled, you can only place blocks in\na grid pattern, with a configurable interval.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
+
+tweakPlacementLimit	When enabled, you can only place a set number\nof blocks per use/right click.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
+
+tweakPlacementRestriction	Enables the Placement Restriction mode\n  (Plane, Layer, Face, Column, Line, Diagonal)
+打开放置限制
+tweakPlacementRestrictionFirst	Restricts block placement so that you can only\nplace blocks against the same block type\nyou first clicked on
+限制放置首个方块
+tweakPlacementRestrictionHand	Restricts block placement so that you can only\nplace blocks against the same block type\nyou are holding in your hand
+限制放置手中方块
+tweakPlayerInventoryPeek	Enables a player inventory peek/preview, while holding the\nconfigured hotkey key for it.
+物品栏预览
+tweakPotionWarning	Prints a warning message to the hotbar when\nnon-ambient potion effects are about to run out
+药水效果预警
+tweakPrintDeathCoordinates	Enables printing the player's coordinates to chat on death.\nThis feature is originally from usefulmod by nessie.
+显示死亡坐标
+tweakPickBeforePlace	If enabled, then before each block placement, the same block\nis switched to hand that you are placing against
+自动选择放置方块
+tweakPlayerListAlwaysVisible	If enabled, then the player list is always rendered without\nhaving to hold down the key (tab by default)
+永久显示玩家列表
+tweakRenderEdgeChunks	Allows the edge-most client-loaded chunks to render.\nVanilla doesn't allow rendering chunks that don't have\nall the adjacent chunks loaded, meaning that the edge-most chunk\nof the client's loaded won't render in vanilla.\n搂lThis is also very helpful in the Free Camera mode!搂r
+渲染边缘区块
+tweakRenderInvisibleEntities	When enabled, invisible entities are rendered like\nthey would be in spectator mode.
+渲染隐形实体
+tweakRenderLimitEntities	Enables limiting the number of certain types of entities\nto render per frame. Currently XP Orbs and Item entities\nare supported, see Generic configs for the limits.
+实体渲染上限
+tweakRepairMode	If enabled, then fully repaired items held in hand will\nbe swapped to damaged items that have Mending on them.
+物品修复模式
+tweakSculkPulseLength	Allows modifying the Sculk Sensor pulse length. Set the pulse length in Generic -> sculkSensorPulseLength
+幽匿感测体脉冲调整
+tweakShulkerBoxDisplay	Enables the Shulker Box contents display when hovering\nover them in an inventory and holding shift
+潜影盒物品预览
+tweakSignCopy	When enabled, placed signs will use the text from\nthe previously placed sign.\nCan be combined with tweakNoSignGui to quickly place copies\nof a sign, by enabling that tweak after making the first sign.
+粘贴告示牌文字
+tweakSnapAim	Enabled a snap aim tweak, to make the player face to pre-set exact yaw rotations
+视角自动对齐
+tweakSnapAimLock	Enables a snap aim lock, locking the yaw and/or pitch rotations\nto the currently snapped value
+吸附视角锁定
+tweakSneak_1.15.2	Restores the 1.15.2 sneaking behavior
+1.15.2潜行
+tweakSpectatorTeleport	Allows spectators to teleport to other spectators.\nThis is originally from usefulmod by nessie.
+
+tweakStructureBlockLimit	Allows overriding the structure block limit.\nThe new limit is set in Generic -> structureBlockMaxSize
+
+tweakSwapAlmostBrokenTools	If enabled, then any damageable items held in the hand that\nare about to break will be swapped to fresh ones
+自动收起破损工具
+tweakTabCompleteCoordinate	If enabled, then tab-completing coordinates while not\nlooking at a block, will use the player's position\ninstead of adding the ~ character.
+自动补全坐标
+tweakToolSwitch	Enables automatically switching to an effective tool for the targeted block
+工具自动切换
+tweakWeaponSwitch	Enables automatically switching to a weapon for the targeted entity
+武器自动切换
+tweakYMirror	Mirrors the targeted y-position within the block bounds.\nThis is basically for placing slabs or stairs\nin the opposite top/bottom state from normal,\nif you have to place them against another slab for example.
+上下颠倒放置
+tweakZoom	Enables using the zoom hotkey to, well, zoom in
+放大
+accurateBlockPlacementInto	The key to activate the accurate block placement\nmode/overlay for placing the block facing\ninto the clicked block face
+精准放置
+accurateBlockPlacementReverse	The key to activate the accurate block placement\nmode/overlay for placing the block facing\nthe opposite way from what it would normally be
+反向精准放置
+breakingRestrictionModeColumn	Switch the Breaking Restriction mode to the Column mode
+柱破坏限制
+breakingRestrictionModeDiagonal	Switch the Breaking Restriction mode to the Diagonal mode
+对角线破坏限制
+breakingRestrictionModeFace	Switch the Breaking Restriction mode to the Face mode
+面破坏限制
+breakingRestrictionModeLayer	Switch the Breaking Restriction mode to the Layer mode
+层破坏限制
+breakingRestrictionModeLine	Switch the Breaking Restriction mode to the Line mode
+线破坏限制
+breakingRestrictionModePlane	Switch the Breaking Restriction mode to the Plane mode
+水平面破坏限制
+copySignText	Copies the text from an already-placed sign.\nThat text can be used with the tweakSignCopy tweak.
+复制告示牌文字
+elytraCamera	The key to lock the current real player rotations, only allowing the\ninputs (mouse) to affect separate \"camera rotations\" used only for the rendering\nwhile this key is active.\nMeant for freely looking down/around while elytra flying straight.
+鞘翅视角
+flexibleBlockPlacementAdjacent	The key to activate the flexible block placement\nmode/overlay for placing the block in an adjacent position
+灵活放置延申
+flexibleBlockPlacementOffset	The key to activate the flexible block placement\nmode/overlay for placing the block in a\noffset or diagonal position
+灵活放置偏移（斜角放置）
+flexibleBlockPlacementRotation	The key to activate the flexible block placement\nmode/overlay for placing the block with\na rotation/facing
+灵活放置朝向
+flyPreset1	Switch to fly preset 1
+飞行预设1
+flyPreset2	Switch to fly preset 2
+飞行预设2
+flyPreset3	Switch to fly preset 3
+飞行预设3
+flyPreset4	Switch to fly preset 4
+飞行预设4
+freeCameraPlayerInputs	Toggle the Generic -> freeCameraPlayerInputs option
+灵魂出窍操作
+freeCameraPlayerMovement	Toggle the Generic -> freeCameraPlayerMovement option
+灵魂出窍移动
+hotbarScroll	The key to hold to allow scrolling the hotbar\nthrough the player inventory rows
+快捷栏轮换
+hotbarSwapBase	The base key to show the hotbar/inventory overlay
+
+hotbarSwap1	Swap the hotbar with the top-most inventory row
+
+hotbarSwap2	Swap the hotbar with the middle inventory row
+
+hotbarSwap3	Swap the hotbar with the bottom-most inventory row
+
+inventoryPreview	The key to activate the inventory preview feature
+物品栏预览
+openConfigGui	The key open the in-game config GUI
+打开设置界面
+placementYMirror	The key to mirror the targeted y-position within the block
+打开上下颠倒放置
+playerInventoryPeek	The key to activate the player inventory peek/preview feature
+打开物品栏预览
+placementRestrictionModeColumn	Switch the Placement Restriction mode to the Column mode
+柱放置限制
+placementRestrictionModeDiagonal	Switch the Placement Restriction mode to the Diagonal mode
+对角线放置限制
+placementRestrictionModeFace	Switch the Placement Restriction mode to the Face mode
+面放置限制
+placementRestrictionModeLayer	Switch the Placement Restriction mode to the Layer mode
+层放置限制
+placementRestrictionModeLine	Switch the Placement Restriction mode to the Line mode
+线放置限制
+placementRestrictionModePlane	Switch the Placement Restriction mode to the Plane mode
+水平面放置限制
+sitDownNearbyPets	Makes all nearby pets sit down
+令附近宠物坐下
+skipAllRendering	Toggles skipping _all_ rendering
+跳过所有渲染
+skipWorldRendering	Toggles skipping world rendering
+跳过世界渲染
+standUpNearbyPets	Makes all nearby pets stand up
+令附近宠物起立
+swapElytraChestplate	Swaps the currently equipped item in the chest slot between an Elytra and a Chest Plate
+胸甲鞘翅切换
+toggleCarpetAccuratePlacementProtocol	Toggles the value of the Generic -> 'carpetAccuratePlacementProtocol' option
+Carpet精准放置协议开关
+toggleGrabCursor	Grabs or ungrabs the mouse cursor, depending on the current state
+
+toolPick	Switches to the effective tool for the targeted block
+选取工具
+writeMapsAsImages	Writes all the currently available maps as images\nto the 'config/tweakeroo/map_images/<worldname>/' directory
+保存地图为图片
+zoomActivate	Zoom activation hotkey
+启用放大

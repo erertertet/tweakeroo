@@ -1,8 +1,15 @@
 
-temp_file = open("src\main\\resources\\assets\\tweakeroo\lang\working_directory\\temp_working.txt", "r", encoding="utf-8")
+temp_file = open("src\main\\resources\\assets\\tweakeroo\lang\working_directory\\temp_working_1.txt", "r", encoding="utf-8")
 
-for line in temp_file.readlines():
-    literals = line[:-1].split("\t")
+for i,line in enumerate(temp_file.readlines()):
+    
+    # literals = line[:-1].split("\t")
+    # print(i, line)
 
-    print(f"\"{literals[0]}\":\"{literals[1]}\",")
-    print(f"\"config.comment.{literals[0].lower()}\":\"{literals[2]}\",")
+    if i % 2 == 0:
+
+        literals = line[:-1].split("\t")
+
+        print(f"\"{literals[0]}\":\"{'testing string'}\",")
+        print(f"\"config.name.{literals[0].lower()}\":\"{'testing name'}\",")
+        print(f"\"config.comment.{literals[0].lower()}\":\"{'testing comment'}\",")
