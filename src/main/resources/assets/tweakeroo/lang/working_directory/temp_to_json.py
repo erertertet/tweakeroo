@@ -1,5 +1,7 @@
 
-temp_file = open("src\main\\resources\\assets\\tweakeroo\lang\working_directory\\temp_working_1.txt", "r", encoding="utf-8")
+temp_file = open("src\main\\resources\\assets\\tweakeroo\lang\working_directory\\temp_working.txt", "r", encoding="utf-8")
+
+names = []
 
 for i,line in enumerate(temp_file.readlines()):
     
@@ -7,9 +9,13 @@ for i,line in enumerate(temp_file.readlines()):
     # print(i, line)
 
     if i % 2 == 0:
+        literals = []
+    literals.extend(line[:-1].split("\t"))
 
-        literals = line[:-1].split("\t")
+    if i % 2 == 1:
+        print(f"\"config.name.{literals[0].lower()}\":\"{literals[2]}\",")
+        # if len(literals) == 3:
+            # print(literals)
+        # names.append(literals[2])
 
-        print(f"\"{literals[0]}\":\"{'testing string'}\",")
-        print(f"\"config.name.{literals[0].lower()}\":\"{'testing name'}\",")
-        print(f"\"config.comment.{literals[0].lower()}\":\"{'testing comment'}\",")
+# print(sorted(names, key=len))

@@ -59,19 +59,19 @@ handRestockPre	If enabled, then hand restocking happens\nbefore the stack runs o
 handRestockPreThreshold	The stack size threshold at which Hand Restock will happen\nin the pre-restock mode
 自动补货阈值
 hangableEntityBypassInverse	If the hangableEntityTargetingBypass tweak is enabled,\nthen this controls whether the player must be or must not be\nsneaking to be able to target the hangable entity (Item Frame or Painting).\n > true - Sneaking = ignore/bypass the entity\n > false - Sneaking = target the entity
-
+潜行时穿透展示框/画
 hotbarSlotCycleMax	This is the last hotbar slot to use/cycle through\nif the hotbar slot cycle tweak is enabled.\nBasically the cycle will jump back to the first slot\nwhen going over the maximum slot number set here.
-
+轮换快捷栏上限
 hotbarSlotRandomizerMax	This is the last hotbar slot to use if the hotbar slot randomizer\ntweak is enabled. Basically the selected hotbar slot will be randomly\npicked from 1 to this maximum slot after an item use.
-
+随机快捷栏上限
 hotbarSwapOverlayAlignment	The positioning of the hotbar swap overlay
-
+快捷栏切换X对齐
 hotbarSwapOverlayOffsetX	The horizontal offset of the hotbar swap overlay
-
+快捷栏切换X轴偏移
 hotbarSwapOverlayOffsetY	The vertical offset of the hotbar swap overlay
-
+快捷栏切换Y轴偏移
 itemSwapDurabilityThreshold	This is the durability threshold (in uses left)\nfor the low-durability item swap feature.\nNote that items with low total durability will go lower\nand be swapped at 5%% left.
-
+破损工具阈值
 itemUsePacketCheckBypass	Bypass the new distance/coordinate check that was added in 1.18.2.\n\nThat check breaks the \"accurate placement protocol\" and causes\nany blocks placed with a rotation (or other property) request to just become ghost blocks.\n\nThere is basically no need to ever disable this.\nThe check didn't even exist ever before 1.18.2.
 关闭合法放置检测
 mapPreviewRequireShift	Whether holding shift is required for the Map Preview
@@ -163,49 +163,49 @@ blockTypeBreakRestrictionWhiteList	The only blocks that can be broken while the 
 creativeExtraItems	Extra items that should be appended to the creative inventory.\nCurrently these will appear in the Transportation category.\nIn the future the group per added item will be customizable.
 额外创造模式物品
 entityTypeAttackRestrictionListType	The restriction list type for the Entity Type Attack Restriction tweak
-
+攻击实体类型限制
 entityTypeAttackRestrictionBlackList	The entities that are NOT allowed to be attacked while the Entity Attack Restriction tweak is enabled,\nif the entityAttackRestrictionListType is set to Black List
-
+不可攻击实体
 entityTypeAttackRestrictionWhiteList	The only entities that can be attacked while the Entity Attack Restriction tweak is enabled,\nif the entityAttackRestrictionListType is set to White List
-
+可攻击实体
 entityWeaponMapping	Mapping for what weapon should be used with the\n'tweakWeaponSwitch' tweak.\n'<default>' will be used when no other mapping is defined.\n'<ignore>' will not trigger a weapon switch.
-
+根据生物切换武器
 fastPlacementItemListType	The item restriction type for the Fast Block Placement tweak
-
+快速放置类型
 fastPlacementItemBlackList	The items that are NOT allowed to be used for the Fast Block Placement tweak,\nif the fastPlacementItemListType is set to Black List
-
+快速放置黑名单
 fastPlacementItemWhiteList	The items that are allowed to be used for the Fast Block Placement tweak,\nif the fastPLacementItemListType is set to White List
-
+快速放置白名单
 fastRightClickBlockListType	The targeted block restriction type for the Fast Right Click tweak
-
+快速右键方块类型
 fastRightClickBlockBlackList	The blocks that are NOT allowed to be right clicked on with\nthe Fast Right Click tweak, if the fastRightClickBlockListType is set to Black List
-
+快速右键黑名单方块
 fastRightClickBlockWhiteList	The blocks that are allowed to be right clicked on with\nthe Fast Right Click tweak, if the fastRightClickBlockListType is set to White List
-
+快速右键白名单方块
 fastRightClickListType	The item restriction type for the Fast Right Click tweak
-
+快速右键类型
 fastRightClickBlackList	The items that are NOT allowed to be used for the Fast Right Click tweak,\nif the fastRightClickListType is set to Black List
-
+快速右键黑名单
 fastRightClickWhiteList	The items that are allowed to be used for the Fast Right Click tweak,\nif the fastRightClickListType is set to White List
-
+快速右键白名单
 flatWorldPresets	Custom flat world preset strings.\nThese are in the format: name;blocks_string;biome;generation_features;icon_item\nThe blocks string format is the vanilla format, such as: 62*minecraft:dirt,minecraft:grass\nThe biome can be the registry name, or the int ID\nThe icon item name format is minecraft:iron_nugget
-
+超平坦自定义预设
 handRestockListType	The restriction list type for the Hand Restock tweak
-
+补货模式
 handRestockBlackList	The items that are NOT allowed to be restocked with the Hand Restock tweak,\nif the handRestockListType is set to Black List
-
+补货物品黑名单
 handRestockWhiteList	The only allowed items that can be restocked with the Hand Restock tweak,\nif the handRestockListType is set to White List
-
+补货物品白名单
 potionWarningListType	The list type for potion warning effects
-
+药水效果预警模式
 potionWarningBlackList	The potion effects that will not be warned about
-
+药水效果预警黑名单
 potionWarningWhiteList	The only potion effects that will be warned about
-
+药水效果预警白名单
 repairModeSlots	The slots the repair mode should use\nValid values: mainhand, offhand, head, chest, legs, feet
-
+修复模式可用槽位
 unstackingItems	The items that should be considered for the\n'tweakItemUnstackingProtection' tweak
-
+物品堆叠保护
 disableArmorStandRendering	Disables all Armor Stand entity rendering
 禁用盔甲架渲染
 disableAxeStripping	Disables stripping logs with an axe
@@ -263,7 +263,7 @@ disableOffhandRendering	Disables the offhand item from getting rendered
 disableParticles	Disables all particles
 禁用粒子效果
 disablePortalGuiClosing	If enabled, then you can still open GUIs while in a Nether Portal
-
+地狱门允许打开背包
 disableRainEffects	Disables rain rendering and sounds
 禁用下雨效果
 disableRenderingScaffolding	Disables rendering of Scaffolding Blocks
@@ -283,7 +283,7 @@ disableSkyDarkness	Disables the sky darkness below y = 63\n\n(By moving the thre
 disableSlimeBlockSlowdown	Removes the slowdown from walking on Slime Blocks.\n(This is originally from usefulmod by nessie.)
 禁用史莱姆方块减速
 disableStatusEffectHud	Disables the status effect HUD rendering (which is usually\nin the top right corner of the screen)
-
+药水效果显示
 disableTileEntityRendering	Prevents all TileEntity renderers from rendering
 禁用方块实体渲染
 disableTileEntityTicking	Prevent all TileEntities from getting ticked
@@ -293,7 +293,7 @@ disableVillagerTradeLocking	Prevents villager trades from ever locking, by alway
 disableWallUnsprint	Touching a wall doesn't drop you out from sprint mode
 禁用触墙速度惩罚
 disableWorldViewBob	Disables the view bob wobble effect of the world, but not the hand
-
+关闭走路摇晃
 flySpeedPreset	This is just for the mod internally to track the\ncurrently selected fly speed preset
 飞行速度
 gammaValueOriginal	The original gamma value, before the gamma override was enabled
@@ -301,13 +301,13 @@ gammaValueOriginal	The original gamma value, before the gamma override was enabl
 hotbarScrollCurrentRow	This is just for the mod internally to track the\n\"current hotbar row\" for the hotbar scrolling feature
 目前快捷栏
 slimeBlockSlipperinessOriginal	The original slipperiness value of Slime Blocks
-
+恢复史莱姆快摩擦力
 snapAimLastPitch	The last snapped-to pitch value
-
+吸附偏航角
 snapAimLastYaw	The last snapped-to yaw value
-
+吸附俯仰角
 tweakAccurateBlockPlacement	Enables a simpler version of Flexible placement, similar to\nthe Carpet mod, so basically either facing into or out\nfrom the block face clicked on.
-精准防止
+精准放置
 tweakAfterClicker	Enables a \"after clicker\" tweak, which does automatic right\nclicks on the just-placed block.\nUseful for example for Repeaters (setting the delay).\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
 放置后右键
 tweakAimLock	Enables an aim lock, locking the yaw and pitch rotations\nto the current values.\nThis is separate from the snap aim lock,\nwhich locks them to the snapped value.\nThis allows locking them \"freely\" to the current value.
@@ -325,11 +325,11 @@ tweakBreakingRestriction	Enables the Breaking Restriction mode\n  (Plane, Layer,
 tweakChatBackgroundColor	Overrides the default chat background color\nwith the one from Generics -> 'chatBackgroundColor'
 覆写聊天框背景颜色
 tweakChatPersistentText	Stores the text from the chat input text field\nand restores it when the chat is opened again
-
+保留输入文字
 tweakChatTimestamp	Adds timestamps to chat messages
-聊天时间戳  在公屏聊天显示实时时间
+聊天时间戳	在公屏聊天显示实时时间
 tweakCommandBlockExtraFields	Adds extra fields to the Command Block GUI, for settings\nthe name of the command block, and seeing the stats results
-
+更好的命令方块
 tweakCreativeExtraItems	Adds custom items to item groups.\nSee Lists -> 'creativeExtraItems' to control which items are added to the groups.\nNote: Currently these will be added to the Transportation group\n(because it has the elast items), but in the future\nthe groups will be configurable per added item
 额外创造模式物品
 tweakCustomFlatPresets	Allows adding custom flat world presets to the list.\nThe presets are defined in Lists -> flatWorldPresets
@@ -373,7 +373,7 @@ tweakGammaOverride	Overrides the video settings gamma value with\nthe one set in
 tweakHandRestock	Enables swapping a new stack to the main or the offhand\nwhen the previous stack runs out
 补货手中物品
 tweakHangableEntityBypass	Allows not targeting hangable entities (Item Frames and Paintings).\nThe Generic -> hangableEntityBypassInverse option can be used to control\nwhether you must be sneaking or not sneaking to be able to target the entity.
-
+穿透展示框/画
 tweakHoldAttack	Emulates holding down the attack button
 模拟长按攻击
 tweakHoldUse	Emulates holding down the use button
@@ -381,21 +381,21 @@ tweakHoldUse	Emulates holding down the use button
 tweakHotbarScroll	Enables the hotbar swapping via scrolling feature
 开启快捷栏轮换
 tweakHotbarSlotCycle	Enables cycling the selected hotbar slot after each placed\nblock, up to the set max slot number.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
-
+轮换快捷栏
 tweakHotbarSlotRandomizer	Enables randomizing the selected hotbar slot after each placed\nblock, up to the set max slot number.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
-
+随机快捷栏
 tweakHotbarSwap	Enables the hotbar swapping via hotkeys feature
 快捷栏轮换
 tweakInventoryPreview	Enables an inventory preview while having the cursor over\na block or an entity with an inventory and holding down\nthe configured hotkey.
 物品栏预览
 tweakItemUnstackingProtection	If enabled, then items configured in Lists -> unstackingItems\nwon't be allowed to spill out when using.\nThis is meant for example to prevent throwing buckets\ninto lava when filling them.
-
+物品堆叠保护
 tweakLavaVisibility	If enabled, then the level of Respiration and Aqua Affinity enchantments,\nand having the Fire Resistance effect active,\nwill greatly increase the visibility under lava.
 岩浆下可视
 tweakMapPreview	If enabled, then holding shift over maps in an inventory\nwill render a preview of the map
 潜行预览地图
 tweakMovementKeysLast	If enabled, then opposite movement keys won't cancel each other,\nbut instead the last pressed key is the active input.
-
+移动不抵消
 tweakPeriodicAttack	Enables periodic attacks (left clicks)\nConfigure the interval in Generic -> periodicAttackInterval
 定时攻击
 tweakPeriodicUse	Enables periodic uses (right clicks)\nConfigure the interval in Generic -> periodicUseInterval
@@ -409,9 +409,9 @@ tweakPermanentSneak	If enabled, the player will be sneaking the entire time
 tweakPermanentSprint	If enabled, the player will be always sprinting when moving forward
 自动疾跑
 tweakPlacementGrid	When enabled, you can only place blocks in\na grid pattern, with a configurable interval.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
-
+格点放置
 tweakPlacementLimit	When enabled, you can only place a set number\nof blocks per use/right click.\nTo quickly adjust the value, scroll while\nholding down the tweak toggle keybind.
-
+放置速率上限
 tweakPlacementRestriction	Enables the Placement Restriction mode\n  (Plane, Layer, Face, Column, Line, Diagonal)
 打开放置限制
 tweakPlacementRestrictionFirst	Restricts block placement so that you can only\nplace blocks against the same block type\nyou first clicked on
@@ -449,9 +449,9 @@ tweakSnapAimLock	Enables a snap aim lock, locking the yaw and/or pitch rotations
 tweakSneak_1.15.2	Restores the 1.15.2 sneaking behavior
 1.15.2潜行
 tweakSpectatorTeleport	Allows spectators to teleport to other spectators.\nThis is originally from usefulmod by nessie.
-
+允许传送到其他观察者
 tweakStructureBlockLimit	Allows overriding the structure block limit.\nThe new limit is set in Generic -> structureBlockMaxSize
-
+覆写结构方块上限
 tweakSwapAlmostBrokenTools	If enabled, then any damageable items held in the hand that\nare about to break will be swapped to fresh ones
 自动收起破损工具
 tweakTabCompleteCoordinate	If enabled, then tab-completing coordinates while not\nlooking at a block, will use the player's position\ninstead of adding the ~ character.
@@ -505,13 +505,13 @@ freeCameraPlayerMovement	Toggle the Generic -> freeCameraPlayerMovement option
 hotbarScroll	The key to hold to allow scrolling the hotbar\nthrough the player inventory rows
 快捷栏轮换
 hotbarSwapBase	The base key to show the hotbar/inventory overlay
-
+快捷栏轮换基础键
 hotbarSwap1	Swap the hotbar with the top-most inventory row
-
+轮换背包第一行
 hotbarSwap2	Swap the hotbar with the middle inventory row
-
+快捷栏轮第二行
 hotbarSwap3	Swap the hotbar with the bottom-most inventory row
-
+快捷栏轮第三行
 inventoryPreview	The key to activate the inventory preview feature
 物品栏预览
 openConfigGui	The key open the in-game config GUI
@@ -545,7 +545,7 @@ swapElytraChestplate	Swaps the currently equipped item in the chest slot between
 toggleCarpetAccuratePlacementProtocol	Toggles the value of the Generic -> 'carpetAccuratePlacementProtocol' option
 Carpet精准放置协议开关
 toggleGrabCursor	Grabs or ungrabs the mouse cursor, depending on the current state
-
+呼出鼠标
 toolPick	Switches to the effective tool for the targeted block
 选取工具
 writeMapsAsImages	Writes all the currently available maps as images\nto the 'config/tweakeroo/map_images/<worldname>/' directory
